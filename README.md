@@ -171,7 +171,7 @@ amazon_sales_dataset.csv
 
 **1. Clone o repositório**
 ```bash
-git clone https://github.com/seu-usuario/amazon-sales-analysis.git
+git clone https://github.com/RuanSantos-Developer/amazon-sales-analysis.git
 cd amazon-sales-analysis
 ```
 
@@ -184,20 +184,44 @@ pip install pandas numpy matplotlib seaborn jupyter
 
 Abra `amazon_sales_analysis.ipynb` no Jupyter e execute todas as células em sequência. O dataset limpo será exportado automaticamente como `amazon_sales_cleaned.csv`.
 
-> ⚠️ Certifique-se de que o arquivo `amazon_sales_dataset.csv` está na mesma pasta da analise antes de executar.
+> ⚠️ Certifique-se de que o arquivo `amazon_sales_dataset.csv` está na raiz do projeto antes de executar.
 
 ---
 
 ## Estrutura do Repositório
 
 ```
-amazon-sales-analysis/├─ analysis/│ ├─ amazon_sales_analysis.ipynb│ └─ amazon_sales_dataset.csv├─ images/│ ├─ categoria_desconto_receita.png│ ├─ desconto_receita.png│ ├─ desconto_satisfacao.png│ ├─ dist_categoricas.png│ ├─ dist_numericas.png│ ├─ engagement_heatmap.png│ ├─ heatmap_correlacao.png│ ├─ heatmap_regiao_categoria.png│ ├─ pagamento_regiao.png│ ├─ pedidos_dia_semana.png│ ├─ rating_categoria.png│ ├─ receita_categoria.png│ ├─ receita_mensal.png│ ├─ receita_regional_tempo.png│ ├─ regional_overview.png│ └─ scatter_desconto_receita.png├─ .gitignore└─ README.md
+amazon-sales-analysis/
+│
+├── analysis/
+│   ├── amazon_sales_analysis.ipynb    # Notebook completo (ETL + EDA)
+│   └── amazon_sales_dataset.csv       # Fonte de dados brutos
+│
+├── images/
+│   ├── categoria_desconto_receita.png
+│   ├── desconto_receita.png
+│   ├── desconto_satisfacao.png
+│   ├── dist_categoricas.png
+│   ├── dist_numericas.png
+│   ├── engagement_heatmap.png
+│   ├── heatmap_correlacao.png
+│   ├── heatmap_regiao_categoria.png
+│   ├── pagamento_regiao.png
+│   ├── pedidos_dia_semana.png
+│   ├── rating_categoria.png
+│   ├── receita_categoria.png
+│   ├── receita_mensal.png
+│   ├── receita_regional_tempo.png
+│   ├── regional_overview.png
+│   └── scatter_desconto_receita.png
+│
+├── .gitignore
+└── README.md
 ```
 
 ---
 
 <p align="center">
   Desenvolvido por <strong>Ruan</strong> &nbsp;·&nbsp;
-  <a href="#">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="#">Portfólio</a>
+  <a href="www.linkedin.com/in/ruan-santos-780442218">LinkedIn</a> &nbsp;·&nbsp;
 </p>
