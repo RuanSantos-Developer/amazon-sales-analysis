@@ -184,7 +184,7 @@ pip install pandas numpy matplotlib seaborn jupyter
 
 Abra `amazon_sales_analysis.ipynb` no Jupyter e execute todas as células em sequência. O dataset limpo será exportado automaticamente como `amazon_sales_cleaned.csv`.
 
-> ⚠️ Certifique-se de que o arquivo `amazon_sales_dataset.csv` está na raiz do projeto antes de executar.
+> ⚠️ Certifique-se de que o arquivo `amazon_sales_dataset.csv` está na mesma pastada analise antes de executar.
 
 ---
 
