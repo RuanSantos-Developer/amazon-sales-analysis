@@ -191,19 +191,7 @@ Abra `amazon_sales_analysis.ipynb` no Jupyter e execute todas as células em seq
 ## Estrutura do Repositório
 
 ```
-amazon-sales-analysis/
-│
-├── amazon_sales_dataset.csv       # Fonte de dados brutos
-├── amazon_sales_analysis.ipynb    # Notebook completo (ETL + EDA)
-├── amazon_sales_cleaned.csv       # Dataset processado e enriquecido
-├── README.md                      # Documentação do projeto
-│
-└── images/
-    ├── receita_mensal.png
-    ├── heatmap_correlacao.png
-    ├── desconto_receita.png
-    ├── regional_overview.png
-    └── heatmap_regiao_categoria.png
+amazon-sales-analysis/├─ analysis/│ ├─ amazon_sales_analysis.ipynb│ └─ amazon_sales_dataset.csv├─ images/│ ├─ categoria_desconto_receita.png│ ├─ desconto_receita.png│ ├─ desconto_satisfacao.png│ ├─ dist_categoricas.png│ ├─ dist_numericas.png│ ├─ engagement_heatmap.png│ ├─ heatmap_correlacao.png│ ├─ heatmap_regiao_categoria.png│ ├─ pagamento_regiao.png│ ├─ pedidos_dia_semana.png│ ├─ rating_categoria.png│ ├─ receita_categoria.png│ ├─ receita_mensal.png│ ├─ receita_regional_tempo.png│ ├─ regional_overview.png│ └─ scatter_desconto_receita.png├─ .gitignore└─ README.md
 ```
 
 ---
